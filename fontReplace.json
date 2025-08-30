@@ -1,0 +1,26 @@
+[
+    {
+        "font": "simhei",
+        "replace": [
+            "MD莫瑞斯9",
+            "MD Morris9",
+            "Arial Narrow"
+        ],
+        "min": 12
+    },
+    {
+        "font": "Nsimsun",
+        "replace": [
+            "Arial",
+            "Tahoma",
+            "Dotum",
+            "Batang",
+            "Gungseo",
+            "Seoul Namsan Font M",
+            "Seoul Namsan Font L",
+            "Seoul Namsan Font EB",
+            "Seoul Namsan Font B"
+        ],
+        "min": 12
+    }
+]
