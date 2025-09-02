@@ -1,25 +1,30 @@
 [
     {
-        "font": "simhei",
-        "replace": [
-            "MD莫瑞斯9",
-            "MD Morris9",
-            "Arial Narrow"
-        ],
-        "min": 12
+        "font": "Tahoma",
+        "min": 11
     },
     {
         "font": "Nsimsun",
         "replace": [
             "Arial",
-            "Tahoma",
+            "MD莫瑞斯9",
+            "MD Morris9"
+        ],
+        "min": 12,
+        "yOffset": 1
+    },
+    {
+        "font": "Nsimsun",
+        "replace": [
             "Dotum",
             "Batang",
             "Gungseo",
+            "宮书",
             "Seoul Namsan Font M",
             "Seoul Namsan Font L",
             "Seoul Namsan Font EB",
-            "Seoul Namsan Font B"
+            "Seoul Namsan Font B",
+            "Arial Narrow"
         ],
         "min": 12
     }
