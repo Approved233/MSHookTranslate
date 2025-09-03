@@ -11,7 +11,8 @@
             "MD Morris9"
         ],
         "min": 12,
-        "yOffset": 1
+        "yOffset": 1,
+        "textYOffset": 2
     },
     {
         "font": "Nsimsun",
@@ -26,6 +27,7 @@
             "Seoul Namsan Font B",
             "Arial Narrow"
         ],
-        "min": 12
+        "min": 12,
+        "textYOffset": 2
     }
 ]
