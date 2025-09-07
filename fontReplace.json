@@ -4,6 +4,13 @@
         "min": 11
     },
     {
+        "font": "simhei",
+        "replace": [
+            "Arial"
+        ],
+        "size": 16
+    },
+    {
         "font": "Nsimsun",
         "replace": [
             "Arial",
