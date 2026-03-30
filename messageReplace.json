@@ -1,0 +1,175 @@
+{
+    "screenMessage": {
+        "(.*) considers (.*) the most threatening enemy\\.": "$1 把 $2 视作了最危险的敌人。"
+    },
+    "styledNotice": {
+        "Hunting monsters outside your level range will decrease EXP and meso gain.": "超过等级范围之外狩猎怪物会减少经验值和金币的获得。"
+    },
+    "floatText": {
+        // 神选者塞伦
+        "The sun's flames never forget to take revenge.": "太阳火焰是不会忘记报仇的。",
+        "Soon, the sun will rise again...": "不久后，太阳会再次升起……",
+        // 监视者卡尔洛斯
+        "The Judgment isn't over yet...": "审判还没有结束……",
+        "Find a guardian zone so you don't get caught up in the runaway...": "找到守护地带，不要被暴走所影响……",
+        "Is this it... I apologize. Dad...": "到此为止了吗……父亲，对不起……",
+        "Activating the annihilation protocol. Initiating annihilation...": "启动歼灭协定，开始歼灭。"
+    },
+    "default": [
+        {
+            "comment": "希拉",
+            "chat": 21,
+            "notice": 73,
+            "replace": {
+                "Watch Out! Into the Magic Pentagram! Quickly!": "小心！快进入魔法阵！"
+            }
+        },
+        {
+            "comment": "帕普拉图斯",
+            "chat": 21,
+            "notice": 237,
+            "replace": {
+                "Time Rift will appear soon. Keep your eyes on the floor": "时间裂缝即将出现。当心脚下。",
+                "The curse of Papulatus lasts for the time difference between you and Papulatus": "帕普拉图斯的诅咒持续时间与你和帕普拉图斯之间的时间差异相同。",
+                "The Dimensional Schism must be sealed to stop Papulatus from time traveling": "需要封印时间裂缝，让帕普拉图斯无法穿越时空。",
+                "Dimensional Schism has been sealed": "时空裂缝已封印。",
+                "Papulatus's Watch has begun moving. Seal time by going through the Dimensional Mirror": "帕普拉图斯的座钟转动了。请通过次元传送口封印时间。",
+                "Papulatus is attempting to recover HP through dimensional travel": "帕普拉图斯正在试图通过次元移动恢复生命。",
+                "The alarm of Papulatus is ringing! Be careful. your HP will reduce constantly!": "帕普拉图斯的警报响起！你的体力在持续减少，当心！",
+                "Dealing a certain amount of damage to Papulatus will withstand the Temporal Torrent": "对帕普拉图斯造成一定伤害，就可以抵抗时间激流。"
+            }
+        },
+        {
+            "comment": "斯乌",
+            "notice": 403,
+            "replace": {
+                "Activate ground current discharge system. eliminating the intruders": "启动地面电流释放系统，消灭入侵者。"
+            }
+        },
+        {
+            "comment": "戴米安",
+            "notice": 216,
+            "replace": {
+                "Damien is targeting the most-branded opponent for his Brand": "戴米安会给刻印最多的人烙下刻印。",
+                "Damien is targeting the least-branded opponent for his Brand": "戴米安会给刻印最少的人烙下刻印。",
+                "Damien is targeting a random opponent for his Brand": "无法知晓戴米安要给谁烙下刻印。",
+                "Damien has obtained the complete power of darkness": "戴米安获得了完整的黑暗力量。",
+                "Damien is targeting the most threating opponent for his Brand": "戴米安会给最具威胁的敌人烙下刻印。"
+            }
+        },
+        {
+            "comment": "守护天使绿水灵",
+            "notice": 348,
+            "replace": {
+                "The guardian wave will drop! Set up the crystal bell to control the wave's flow. I'll help you this time. too": "保卫波就要落下来了！！快设置水晶珠控制波纹方向。这次我也会帮忙的！"
+            }
+        },
+        {
+            "comment": "路西德",
+            "chat": 11,
+            "notice": 222,
+            "replace": {
+                "Lucid is preparing a powerful attack": "路西德打算发动强烈的攻击！",
+                "Lucid has become angry": "路西德好像愤怒了！",
+                "Lucid will now become stronger": "路西德即将发挥更强的力量！",
+                "Lucid summoned a powerful minion": "路西德召唤出了强大的召唤兽！",
+                "Lucid is drawing out power": "路西德正在唤醒自己的力量！",
+                "If you get hit by the wind, the dream will get stronger": "如果被那风吹过，梦境就会变得更强！",
+                "Lucid is trying to continue full-range attacks": "路西德打算发动强烈的攻击！",
+                "The dream is getting stronger. Be careful": "梦境正在加强。请小心！"
+            }
+        },
+        {
+            "comment": "威尔",
+            "notice": 245,
+            "replace": {
+                "Will is about to unleash his power. That'll cause this false space to collapse. Move to a true space for safety": "威尔即将解放力量。虚假空间即将崩坏，请找到真实空间躲避。",
+                "Attack the eye to send the moonlight to a different space. The Moonlight Shield must be created quickly": "攻击瞳孔使月光倾泻到其他空间。必须尽快生成月光保护罩。",
+                "Now! You must damage Will when he is vulnerable": "就是现在。在威尔处于无防备状态时对其造成伤害。",
+                "Will has become serious. Maybe his true intent is reflected in the depths of the mirror": "威尔变得真挚起来。镜子深处似乎唤醒出了威尔的真心。",
+                "The Mirror of Lies distorts attacks. Focus on the cracks on the mirror": "谎言之镜会反转伤害。镜子上出现裂痕时请尽情的被打吧。"
+            }
+        },
+        {
+            "comment": "至暗魔晶-希纳斯",
+            "notice": 250,
+            "replace": {
+                "The defense tentacles will launch a powerful attack! Hang in there to attack the exposed Eye of the Void": "用来防御的触手也能发动强力攻击！坚持一下，还可以攻击出现的虚空之眼！"
+            }
+        },
+        {
+            "comment": "至暗魔晶",
+            "notice": 249,
+            "replace": {
+                "The energy around the Dusk is being sucked in at high speed": "至暗魔晶为中心，快速地吸收着周围的能量。"
+            }
+        },
+        {
+            "comment": "觉醒希拉",
+            "notice": 254,
+            "replace": {
+                "Hilla will slash and destroy the soul-burning candle in certain intervals. Be careful not to have your soul taken": "每隔一定时间，希拉就会斩断一根灵魂之烛。小心不要被夺走灵魂。",
+                "Tapping the collect key at the altar will allow you to take back spirits before Hilla approaches": "希拉正在靠近，必须在消失前在祭坛连击采集键回收灵魂。",
+                "I hear Hilla is bringing back Lotus's spirit from death": "希拉在死亡边缘听到提拔斯乌司令的声音。",
+                "I hear Hilla is bringing back Damien's spirit from death": "希拉在死亡边缘听到提拔戴米安司令的声音。"
+            }
+        },
+        {
+            "comment": "敦凯尔",
+            "notice": 272,
+            "replace": {
+                "Captain of the Guard Djunkel: No one shall lay a finger on the Great One, as long as my legion and I stand guard": "亲卫队长敦凯尔：有我和我的军团存在的一天，就不会让伟大的那一位动一根手指！",
+                "Captain of the Guard Djunkel: Take this! Behold, the ultimate power of my sword! It can even split the stars": "亲卫队长敦凯尔：受死吧！感受一下我这足以斩裂星辰的终极剑气！"
+            }
+        },
+        {
+            "comment": "黑魔法师",
+            "notice": 265,
+            "replace": {
+                "To go up against the Black Mage. you have to defeat the Knights of Creation and Destruction that guard him": "为了和黑魔法师对抗，必须击败护卫他的创造和破坏骑士。",
+                "The wall of weeping arises and occuples the space": "哭墙升起蚕食空间。",
+                "Ominous red lightning strikes to limit the movement of the player": "不祥的红色闪电劈向地面限制行动。",
+                "The knight of creation and destruction falls and the path to the Black Mage opens": "创造与破坏的骑士倒下，通向黑魔法师之路开启。",
+                "We are finally going up against the Black Mage. I'd better use everything I have to defeat him": "终于站到了黑魔法师面前。全力把他打倒吧。",
+                "Red Lightning of the Black Mage surrounds you. You need to find a refuge": "世界被黑魔法师的红色闪电笼罩。必须要找到躲避的地方。",
+                "The eye of destruction chases the enemy": "破灭之眼追踪敌人。",
+                "An unknown energy from the Black Mage swallows the throne of darkness": "黑魔法师喷射出未知气息，吞噬黑暗王座。",
+                "He acts like he has power of gods. Even if we are going up to against a god. we have to stop him for everyone here": "看他的那个样子，就像获得了神的权能一样。为了拯救所有人，就算对手是神，也必须阻止。",
+                "the Black Mage uses the power of creation and destruction. You need to choose where to escape: up or down": "黑魔法师使用创造和破坏权能。必须要在上与下之间做出选择，确定躲避的方向。",
+                "The angel of destruction is created from nothing": "破坏天使是从无到有创造而出的。",
+                "Everything nearby is instantly being destroyed by an overwhelming energy": "压倒性气息令周围的一切瞬间灰飞烟灭。",
+                "The power of the one who is close to god is activated. You need to choose which power he/she will take: Creation or Destruction": "发现了近乎于神的权能。是创造还是破坏，必须要选择一种力量。"
+            }
+        },
+        {
+            "comment": "神选者塞伦",
+            "chat": 11,
+            "replace": {
+                "Noon begins full of sunlight": "充斥着耀眼太阳光线的正午开始了。",
+                "The sun spreads stronger light even longer": "太阳光线变强，黑暗时间减少了。",
+                "Time flies and the sun changes as the cycle goes on": "时间流逝，太阳也会随着既定的循环而变化。",
+                "The burning sunset at dusk decreases recovery rate and deals DoT damage": "黄昏似火的夕阳降低恢复效率，造成持续伤害。",
+                "The sun loses the light and midnight begins": "太阳落下，光线变暗，子夜开始了。",
+                "The sun rises slowly and the day is breaking for light and hope": "太阳徐徐上升，象征着光明与希望的黎明到来了。",
+                "The lingering energy of daybreak recovers Serene as soon as noon begins": "正午开始时，余下的黎明气息使塞伦得到恢复。"
+            }
+        },
+        {
+            "comment": "监视者卡尔洛斯",
+            "chat": 11,
+            "replace": {
+                "Odium's Orb detects enemies through T-boy's interference": "奥迪乌姆之球能够穿透T-boy的干扰探测敌人。",
+                "T-boy's intervention awakens the Binding Eye": "受T-boy的干扰，约束之眼将苏醒。",
+                "T-boy's intervention awakens the Abyss Eye": "受T-boy的干扰，深渊之眼将苏醒。",
+                "T-boy interference activates Shelling Aircraft": "受T-boy的干扰，炮击战斗机将激活。"
+            }
+        },
+        {
+            "comment": "魔方公告",
+            "chat": 23,
+            "replace": {
+                "(.*) have used (.*), so the strong Potential level (.*) has been set": "$1使用$2在$3上设定了强大的潜能。"
+            }
+        }
+    ]
+}

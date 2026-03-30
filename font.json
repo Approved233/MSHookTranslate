@@ -1,0 +1,76 @@
+{
+	"offset": {
+		"shopTextY": -2,
+		"libraryLineHeight": 1
+	},
+	"replaces": [
+		{
+			"font": "Noto Sans SC Medium",
+			"condition": {
+				"fonts": [
+					"Tahoma"
+				]
+			},
+			"min": 11,
+			"yOffset": -2,
+			"defaultWeight": 500,
+			"quality": 5
+		},
+		{
+			"font": "Noto Sans SC Medium",
+			"condition": {
+				"fonts": [
+					"Nanum Gothic ExtraBold"
+				]
+			},
+			"minHeight": 600,
+			"quality": 5
+		},
+		{
+			"font": "Noto Sans SC Medium",
+			"condition": {
+				"fonts": [
+					"Arial",
+					"MD莫瑞斯9",
+					"MD Morris9",
+					"Arial Narrow"
+				]
+			},
+			"min": 12,
+			"yOffset": -3,
+			"textYOffset": 3,
+			"defaultWeight": 500,
+			"quality": 5
+		},
+		{
+			"font": "Noto Sans SC Medium",
+			"condition": {
+				"fonts": [
+					"Dotum"
+				]
+			},
+			"min": 12,
+			"yOffset": -4,
+			"defaultWeight": 500,
+			"quality": 5
+		},
+		{
+			"font": "Noto Sans SC Medium",
+			"condition": {
+				"fonts": [
+					"Batang",
+					"Gungseo",
+					"宮书",
+					"Seoul Namsan Font M",
+					"Seoul Namsan Font L",
+					"Seoul Namsan Font EB",
+					"Seoul Namsan Font B"
+				]
+			},
+			"min": 12,
+			"yOffset": -3,
+			"defaultWeight": 500,
+			"quality": 5
+		}
+	]
+}
