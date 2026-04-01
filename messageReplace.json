@@ -15,6 +15,73 @@
         "Is this it... I apologize. Dad...": "到此为止了吗……父亲，对不起……",
         "Activating the annihilation protocol. Initiating annihilation...": "启动歼灭协定，开始歼灭。"
     },
+	"nativePatch": [
+		{
+			// meso
+			"id": 20000,
+			"locations": ["0xae7908"]
+		},
+		{
+			// M
+			"id": 20001,
+			"locations": ["0x3f3678e"]
+		},
+		{
+			// 中
+			"id": 20002,
+			"locations": ["0x1dc0b4f"]
+		},
+		{
+			// 红钻
+			"id": 20003,
+			"locations": ["0x714128"]
+		},
+		{
+			// 职业
+			"id": 20004,
+			"locations": ["0x4e2f80a", "0x3814b83"]
+		},
+		{
+			// 等级
+			"id": 20005,
+			"locations": ["0x378e2c2"]
+		},
+		{
+			// 阶段
+			"id": 20006,
+			"locations": ["0x5e243f"]
+		},
+		{
+			// 任务搜索栏
+			"id": 20007,
+			"locations": ["0x3cd6045"]
+		},
+		{
+			// F
+			"id": 20008,
+			"locations": ["0x403d5fe"]
+		},
+		{
+			// Use
+			"id": 20009,
+			"locations": ["0x481c157", "0x49475c6", "0x4947efd", "0x494d8a5"]
+		},
+		{
+			// Skill
+			"id": 20010,
+			"locations": ["0x37f48b", "0x38037b", "0x385eed", "0x3874af", "0x38e173"]
+		},
+		{
+			// none
+			"id": 20011,
+			"locations": ["0x3bdb87e", "0x4066ec8", "0x41ebd32", "0x41f7ba1"]
+		},
+		{
+			// link,
+			"id": 20012,
+			"locations": ["0x3ded297", "0x3ded474"]
+		}
+	],
     "default": [
         {
             "comment": "希拉",

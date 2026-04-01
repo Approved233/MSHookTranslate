@@ -1,4 +1,8 @@
 {
+	"bypassAlpha": 32,
+	"fonts": [
+		"Fonts/NotoSansSC-Medium.ttf"
+	],
 	"offset": {
 		"shopTextY": -2,
 		"libraryLineHeight": 1
