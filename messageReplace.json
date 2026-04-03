@@ -13,7 +13,9 @@
         "The Judgment isn't over yet...": "审判还没有结束……",
         "Find a guardian zone so you don't get caught up in the runaway...": "找到守护地带，不要被暴走所影响……",
         "Is this it... I apologize. Dad...": "到此为止了吗……父亲，对不起……",
-        "Activating the annihilation protocol. Initiating annihilation...": "启动歼灭协定，开始歼灭。"
+        "Activating the annihilation protocol. Initiating annihilation...": "启动歼灭协定，开始歼灭。",
+        // 卡琳,
+        "How dare you set foot in my artwork?": "竟敢踏入我的画境？！"
     },
 	"nativePatch": [
 		{
@@ -85,16 +87,16 @@
     "default": [
         {
             "comment": "希拉",
-            "chat": 21,
-            "notice": 73,
+            "chat": [21],
+            "notice": [73],
             "replace": {
                 "Watch Out! Into the Magic Pentagram! Quickly!": "小心！快进入魔法阵！"
             }
         },
         {
             "comment": "帕普拉图斯",
-            "chat": 21,
-            "notice": 237,
+            "chat": [21],
+            "notice": [237],
             "replace": {
                 "Time Rift will appear soon. Keep your eyes on the floor": "时间裂缝即将出现。当心脚下。",
                 "The curse of Papulatus lasts for the time difference between you and Papulatus": "帕普拉图斯的诅咒持续时间与你和帕普拉图斯之间的时间差异相同。",
@@ -108,14 +110,14 @@
         },
         {
             "comment": "斯乌",
-            "notice": 403,
+            "notice": [403],
             "replace": {
                 "Activate ground current discharge system. eliminating the intruders": "启动地面电流释放系统，消灭入侵者。"
             }
         },
         {
             "comment": "戴米安",
-            "notice": 216,
+            "notice": [216],
             "replace": {
                 "Damien is targeting the most-branded opponent for his Brand": "戴米安会给刻印最多的人烙下刻印。",
                 "Damien is targeting the least-branded opponent for his Brand": "戴米安会给刻印最少的人烙下刻印。",
@@ -126,15 +128,15 @@
         },
         {
             "comment": "守护天使绿水灵",
-            "notice": 348,
+            "notice": [348],
             "replace": {
                 "The guardian wave will drop! Set up the crystal bell to control the wave's flow. I'll help you this time. too": "保卫波就要落下来了！！快设置水晶珠控制波纹方向。这次我也会帮忙的！"
             }
         },
         {
             "comment": "路西德",
-            "chat": 11,
-            "notice": 222,
+            "chat": [11],
+            "notice": [222],
             "replace": {
                 "Lucid is preparing a powerful attack": "路西德打算发动强烈的攻击！",
                 "Lucid has become angry": "路西德好像愤怒了！",
@@ -148,7 +150,7 @@
         },
         {
             "comment": "威尔",
-            "notice": 245,
+            "notice": [245],
             "replace": {
                 "Will is about to unleash his power. That'll cause this false space to collapse. Move to a true space for safety": "威尔即将解放力量。虚假空间即将崩坏，请找到真实空间躲避。",
                 "Attack the eye to send the moonlight to a different space. The Moonlight Shield must be created quickly": "攻击瞳孔使月光倾泻到其他空间。必须尽快生成月光保护罩。",
@@ -159,21 +161,21 @@
         },
         {
             "comment": "至暗魔晶-希纳斯",
-            "notice": 250,
+            "notice": [250],
             "replace": {
                 "The defense tentacles will launch a powerful attack! Hang in there to attack the exposed Eye of the Void": "用来防御的触手也能发动强力攻击！坚持一下，还可以攻击出现的虚空之眼！"
             }
         },
         {
             "comment": "至暗魔晶",
-            "notice": 249,
+            "notice": [249],
             "replace": {
                 "The energy around the Dusk is being sucked in at high speed": "至暗魔晶为中心，快速地吸收着周围的能量。"
             }
         },
         {
             "comment": "觉醒希拉",
-            "notice": 254,
+            "notice": [254],
             "replace": {
                 "Hilla will slash and destroy the soul-burning candle in certain intervals. Be careful not to have your soul taken": "每隔一定时间，希拉就会斩断一根灵魂之烛。小心不要被夺走灵魂。",
                 "Tapping the collect key at the altar will allow you to take back spirits before Hilla approaches": "希拉正在靠近，必须在消失前在祭坛连击采集键回收灵魂。",
@@ -183,7 +185,7 @@
         },
         {
             "comment": "敦凯尔",
-            "notice": 272,
+            "notice": [272],
             "replace": {
                 "Captain of the Guard Djunkel: No one shall lay a finger on the Great One, as long as my legion and I stand guard": "亲卫队长敦凯尔：有我和我的军团存在的一天，就不会让伟大的那一位动一根手指！",
                 "Captain of the Guard Djunkel: Take this! Behold, the ultimate power of my sword! It can even split the stars": "亲卫队长敦凯尔：受死吧！感受一下我这足以斩裂星辰的终极剑气！"
@@ -191,7 +193,7 @@
         },
         {
             "comment": "黑魔法师",
-            "notice": 265,
+            "notice": [265],
             "replace": {
                 "To go up against the Black Mage. you have to defeat the Knights of Creation and Destruction that guard him": "为了和黑魔法师对抗，必须击败护卫他的创造和破坏骑士。",
                 "The wall of weeping arises and occuples the space": "哭墙升起蚕食空间。",
@@ -210,7 +212,7 @@
         },
         {
             "comment": "神选者塞伦",
-            "chat": 11,
+            "chat": [11],
             "replace": {
                 "Noon begins full of sunlight": "充斥着耀眼太阳光线的正午开始了。",
                 "The sun spreads stronger light even longer": "太阳光线变强，黑暗时间减少了。",
@@ -223,7 +225,7 @@
         },
         {
             "comment": "监视者卡尔洛斯",
-            "chat": 11,
+            "chat": [11],
             "replace": {
                 "Odium's Orb detects enemies through T-boy's interference": "奥迪乌姆之球能够穿透T-boy的干扰探测敌人。",
                 "T-boy's intervention awakens the Binding Eye": "受T-boy的干扰，约束之眼将苏醒。",
@@ -232,8 +234,65 @@
             }
         },
         {
+            "comment": "卡琳P1",
+            "notice": [382, 383, 384],
+            "replace": {
+                "To pursue Carling, I need to defeat the Four Perils that have invaded each season of Shangri-La": "必须击败入侵桃源境各个季节的四凶，才能赶走卡琳。"
+            }
+        },
+        {
+            "comment": "卡琳P1-穷奇",
+            "notice": [382],
+            "replace": {
+                "Gunggi has slipped into the painting. I must draw him out to stop him.": "穷奇已经潜入画境了。必须把他引出来阻止他。"
+            }
+        },
+        {
+            "comment": "卡琳P1-混沌",
+            "notice": [384],
+            "replace": {
+                "An ominous black cloud has been created. I must stop Hondon from entering it.": "诡异的黑云正在形成。必须阻止混沌进入其中。"
+            }
+        },
+        {
+            "comment": "卡琳P2",
+            "notice": [385],
+            "replace": {
+                "Carling, having absorbed the Peril, looks as if she's ready to explode": "卡琳吸收了四凶的力量，似乎随时都要爆炸了。",
+                "The spirits of the monsters that Carling has absorbed are unleashed. I'd better be careful not to get devoured.": "卡琳所吸收怪物的冤魂正在发狂。避开他们，以防被它们吃掉。"
+            }
+        },
+        {
+            "comment": "卡琳提示",
+            "chat": [11],
+            "replace": {
+                "Fend off the invasion of The Four Perils. While alive, Gunggi continuously drains Spirit, Do'oul periodically generates a protective current, and Hondon increases ATT": "必须要阻止四凶入侵。穷奇活着时，会持续消耗精神力；梼杌活着时，会周期性生成保护电流；混沌活着时，被攻击时的攻击伤害增加。",
+                "Hondon has been stopped. Your damage from the Four Perils will no longer increase. You'll also gain Tenuous Residual when fighting Carling": "已消灭混沌。受到来自四凶的伤害不会再增加；与卡琳作战时获得斗争怨念。",
+                "Use the gate to move to a different season. If you don't move for a certain amount of time, you'll be moved randomly by the system": "使用传送门前往不同的季节。若在一定时间内未移动，系统将随机将你传送。",
+                "You've balanced the seasons and thwarted the Four Perils. Spirit is restored": "保持季节平衡的同时消灭四凶后，精神力恢复。",
+                "You've been confined within Sinner's Paradise and can't leave the painting. Some enemy attacks increase your time in there": "你被困在“罪人乐园”中，无法离开画中。部分敌人的攻击会延长你被困在其中的时间。",
+                "Gunggi has been stopped. No more Spirit will be consumed. You'll also gain Protective Blessing when fighting Carling": "已消灭穷奇。不再会消耗精神力；与卡琳作战时获得保护庇护。",
+                "Do'oul absorbs the Shock zone, creating a protective current.": "梼杌吸收触电地带，生成保护电流。",
+                "Do'oul has been stopped. No more protective current will be generated around the Four Perils. You'll also gain Purify when fighting Carling": "已消灭梼杌。四凶将不再生成保护电流。与卡琳作战时获得净化能力。",
+                "The spirits of the monsters Carling has absorbed stick to her, damaging and distracting her": "卡琳所吸收的怪物冤魂缠绕着她，对她造成伤害并干扰她。",
+                "Fight the final battle with Carling in the four seasons filled with deathly energy. In areas where Carling is not present, healing is blocked and incoming damage is increased": "在弥漫着死亡气息的四季中与卡琳展开最后的对决。卡琳不在的区域，恢复被封印，所受攻击伤害增加。",
+                "Death's grip moves you somewhere else.": "通过死亡魔掌移动到其他地方。",
+                "The energy of a destroyed spring has been exhausted. Spirit will be consumed and the Spring gauge will no longer fluctuate.": "被破坏的春天的能量已经耗尽导致精神力被消耗，春天能量条不再更新数值。",
+                "The energy of a destroyed summer has been exhausted. Spirit will be consumed and the Summer gauge will no longer fluctuate.": "被破坏的夏天的能量已经耗尽导致精神力被消耗，夏天能量条不再更新数值。",
+                "The energy of a destroyed fall has been exhausted. Spirit will be consumed and the Fall gauge will no longer fluctuate.": "被破坏的秋天的能量已经耗尽导致精神力被消耗，秋天能量条不再更新数值。",
+                "The energy of a destroyed spring fills you. Spirit will be consumed and the Spring gauge will no longer fluctuate": "四处弥漫着被破坏的春天的气息导致精神力被消耗，春天能量条不再更新数值。",
+                "The energy of a destroyed summer fills you. Spirit will be consumed and the Summer gauge will no longer fluctuate.": "四处弥漫着被破坏的夏天的气息导致精神力被消耗，夏天能量条不再更新数值。",
+                "The energy of a destroyed fall fills you. Spirit will be consumed and the Fall gauge will no longer fluctuate.": "四处弥漫着被破坏的秋天的气息导致精神力被消耗，秋天能量条不再更新数值。",
+                "Do'oul has failed to absorb the Shock zone.": "梼杌吸收触电地带失败。",
+                "Attract Do'oul's attention by emitting a current": "发出电流吸引梼杌的注意力",
+                "You're too far away from Do'oul to attract his attention with the current.": "你离梼杌太远了，无法用电流吸引他的注意力。",
+                "Your Spirit has been exhausted. You can no longer withstand the tainted energy of the four seasons.": "精神力已耗尽，无法再抵抗四季的污秽能量了。",
+                "Hondon is energized by Black Mist, periodically recovering and increasing ATT.": "混沌被黑雾强化，周期性恢复并增加攻击力。"
+            }
+        },
+        {
             "comment": "中奖/魔方公告",
-            "chat": 23,
+            "chat": [23],
             "replace": {
                 "(.*) have used (.*), so the strong Potential level (.*) has been set": "$1使用$2在$3上设定了强大的潜能。",
                 "(.*) has achieved (.*) from (.*)": "$1通过$3获得了$2！",
@@ -242,7 +301,7 @@
         },
         {
             "comment": "全服公告",
-            "chat": 9,
+            "chat": [9],
             "replace": {
                 "\\[Congratulations!] (.*) has achieved Level (\\d+)! Maplers, Let us celebrate with (.*)! (\\d+) more levels to go!": "【恭喜】$1 已达到 $2 级！各位冒险家，让我们为 $3 庆祝吧！距离满级还差 $4 级！",
                 "\\[Congratulations!] (.*) has reached Lv. (\\d+). Congratulations!": "【恭喜】$1 已达到 $2 级。恭喜！",
