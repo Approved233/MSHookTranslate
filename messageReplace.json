@@ -296,7 +296,8 @@
             "replace": {
                 "(.*) have used (.*), so the strong Potential level (.*) has been set": "$1使用$2在$3上设定了强大的潜能。",
                 "(.*) has achieved (.*) from (.*)": "$1通过$3获得了$2！",
-                "(.*) has received (.*) from (.*)\\.": "$1从$3获得了$2。"
+                "(.*) has received (.*) from (.*)\\.": "$1从$3获得了$2。",
+                "(.*) have used (.*), so the (.*) Potential level has been changed to the Legendary level": "$1使用$2在$3上使潜能等级变更为SS级。"
             }
         },
         {
