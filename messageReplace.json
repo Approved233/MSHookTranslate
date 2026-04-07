@@ -1,6 +1,7 @@
 {
     "screenMessage": {
-        "(.*) considers (.*) the most threatening enemy\\.": "$1 把 $2 视作了最危险的敌人。"
+        "(.*) considers (.*) the most threatening enemy\\.": "$1 把 $2 视作了最危险的敌人。",
+        "Lucid is trying to continue full-range attacks\\.": "路西德打算发动强烈的攻击！"
     },
     "styledNotice": {
         "Hunting monsters outside your level range will decrease EXP and meso gain.": "超过等级范围之外狩猎怪物会减少经验值和金币的获得。"
@@ -145,7 +146,8 @@
                 "Lucid is drawing out power": "路西德正在唤醒自己的力量！",
                 "If you get hit by the wind, the dream will get stronger": "如果被那风吹过，梦境就会变得更强！",
                 "Lucid is trying to continue full-range attacks": "路西德打算发动强烈的攻击！",
-                "The dream is getting stronger. Be careful": "梦境正在加强。请小心！"
+                "The dream is getting stronger. Be careful": "梦境正在加强。请小心！",
+                "Press the 'Gather' key near the Bugle Statue to restrict Lucid's powers!": "如果在喇叭铜像附近使用“采集”键，就能抑制路西德的力量！"
             }
         },
         {
