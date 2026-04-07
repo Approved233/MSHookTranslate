@@ -297,14 +297,15 @@
                 "(.*) have used (.*), so the strong Potential level (.*) has been set": "$1使用$2在$3上设定了强大的潜能。",
                 "(.*) has achieved (.*) from (.*)": "$1通过$3获得了$2！",
                 "(.*) has received (.*) from (.*)\\.": "$1从$3获得了$2。",
-                "(.*) have used (.*), so the (.*) Potential level has been changed to the Legendary level": "$1使用$2在$3上使潜能等级变更为SS级。"
+                "(.*) have used (.*), so the (.*) Potential level has been changed to the Legendary level": "$1使用$2在$3上使潜能等级变更为SS级。",
+                "(.*) has acquired a pet (.*) from (.*)\\.": "$1从$3获得了宠物$2。"
             }
         },
         {
             "comment": "全服公告",
             "chat": [9],
             "replace": {
-                "\\[Congratulations!] (.*) has achieved Level (\\d+)! Maplers, Let us celebrate with (.*)! (\\d+) more levels to go!": "【恭喜】$1 已达到 $2 级！各位冒险家，让我们为 $3 庆祝吧！距离满级还差 $4 级！",
+                "\\[Congratulations!] (.*) has achieved Level (\\d+)! Maplers, Let us celebrate with (.*)! (\\d+) more levels to go!": "【恭喜】$1 已达到 $2 级！各位冒险家，让我们为 $3 庆祝吧！距离满级还有 $4 级！",
                 "\\[Congratulations!] (.*) has reached Lv. (\\d+). Congratulations!": "【恭喜】$1 已达到 $2 级。恭喜！",
                 "(.*) have newly achieved Seed ranking 1st place with record of (\\d+) floor (.*)\\.": "$1 以第 $2 层 $3 的成绩获得了起源之塔排名第 1 名。"
             }

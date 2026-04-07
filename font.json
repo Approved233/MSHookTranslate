@@ -34,6 +34,7 @@
 			"condition": {
 				"fonts": [
 					"Arial",
+					"MD???9",
 					"MD莫瑞斯9",
 					"MD Morris9",
 					"Arial Narrow"
@@ -67,11 +68,23 @@
 					"Seoul Namsan Font M",
 					"Seoul Namsan Font L",
 					"Seoul Namsan Font EB",
-					"Seoul Namsan Font B"
+					"Seoul Namsan Font B",
+					"morris"
 				]
 			},
 			"min": 12,
-			"yOffset": -3,
+			"defaultWeight": 500,
+			"quality": 5
+		},
+		{
+			"font": "Noto Sans SC Medium",
+			"condition": {
+				"fonts": [
+					"Dotun"
+				]
+			},
+			"min": 12,
+			"yOffset": -4,
 			"defaultWeight": 500,
 			"quality": 5
 		}
