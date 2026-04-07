@@ -309,6 +309,13 @@
                 "\\[Congratulations!] (.*) has reached Lv. (\\d+). Congratulations!": "【恭喜】$1 已达到 $2 级。恭喜！",
                 "(.*) have newly achieved Seed ranking 1st place with record of (\\d+) floor (.*)\\.": "$1 以第 $2 层 $3 的成绩获得了起源之塔排名第 1 名。"
             }
+        },
+        {
+            "comment": "红字提示",
+            "chat": [11],
+            "replace": {
+                "There are no monsters within the level range in this area or you cannot use (.*) here\\.": "这个区域没有符合等级范围的怪物，或无法在这里使用$1。"
+            }
         }
     ]
 }
