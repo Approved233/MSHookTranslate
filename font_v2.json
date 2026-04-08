@@ -1,0 +1,106 @@
+{
+	"fonts": [
+		"Fonts/NotoSansSC-Medium.ttf",
+		"Fonts/fusion-pixel-12px-proportional-zh_hans.ttf"
+	],
+	"offset": {
+		"shopTextY": -2,
+		"libraryLineHeight": 2
+	},
+	"superSample": {
+		"enable": false
+	},
+	"replaces": [
+		{
+			"font": "Noto Sans SC Medium",
+			"condition": {
+				"fonts": [
+					"Nanum Gothic ExtraBold"
+				]
+			},
+			"minHeight": 600
+		},
+		{
+			"font": "Noto Sans SC Medium",
+			"condition": {
+				"fonts": [
+					"Arial",
+					"MD???9",
+					"MD莫瑞斯9",
+					"MD Morris9",
+					"MDmorris9",
+					"MD모리스9",
+					"Arial Narrow",
+					"Tahoma"
+				],
+				"minHeight": 14
+			},
+			"yOffset": -2,
+			"defaultWeight": 500,
+			"quality": 5
+		},
+		{
+			"font": "Noto Sans SC Medium",
+			"condition": {
+				"fonts": [
+					"Batang",
+					"Gungseo",
+					"宮书",
+					"Seoul Namsan Font M",
+					"Seoul Namsan Font L",
+					"Seoul Namsan Font EB",
+					"Seoul Namsan Font B"
+				],
+				"minHeight": 14
+			},
+			"defaultWeight": 500,
+			"quality": 5
+		},
+		{
+			"font":"Fusion Pixel 12px Prop zh_hans",
+			"condition": {
+				"fonts": [
+					"Dotum"
+				]
+			},
+			"min": 12,
+			"yOffset": -4
+		},
+		{
+			"font": "Fusion Pixel 12px Prop zh_hans",
+			"condition": {
+				"fonts": [
+					"Arial",
+					"MD???9",
+					"MD莫瑞斯9",
+					"MD Morris9",
+					"MDmorris9",
+					"MD모리스9",
+					"Arial Narrow",
+					"morris",
+					"Tahoma",
+					"Dotun"
+				],
+				"maxHeight": 13
+			},
+			"min": 12,
+			"yOffset": -2
+		},
+		{
+			"font": "Fusion Pixel 12px Prop zh_hans",
+			"condition": {
+				"fonts": [
+					"Batang",
+					"Gungseo",
+					"宮书",
+					"Seoul Namsan Font M",
+					"Seoul Namsan Font L",
+					"Seoul Namsan Font EB",
+					"Seoul Namsan Font B"
+				],
+				"maxHeight": 13
+			},
+			"min": 12
+		}
+	]
+}
