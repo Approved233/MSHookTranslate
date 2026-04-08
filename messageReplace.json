@@ -1,7 +1,8 @@
 {
     "screenMessage": {
         "(.*) considers (.*) the most threatening enemy\\.": "$1 把 $2 视作了最危险的敌人。",
-        "Lucid is trying to continue full-range attacks\\.": "路西德打算发动强烈的攻击！"
+        "Lucid is trying to continue full-range attacks\\.": "路西德打算发动强烈的攻击！",
+        "You have obtained (\\d+) mileages. You have accumulated (\\d+) before settlement in the Cash Shop\\.": "已获得$1积分。您在现金商城结算前累计的积分为$2。"
     },
     "styledNotice": {
         "Hunting monsters outside your level range will decrease EXP and meso gain.": "超过等级范围之外狩猎怪物会减少经验值和金币的获得。"
@@ -316,7 +317,10 @@
             "comment": "红字提示",
             "chat": [11],
             "replace": {
-                "There are no monsters within the level range in this area or you cannot use (.*) here\\.": "这个区域没有符合等级范围的怪物，或无法在这里使用$1。"
+                "There are no monsters within the level range in this area or you cannot use (.*) here\\.": "这个区域没有符合等级范围的怪物，或无法在这里使用$1。",
+                "Current Mileage Savings: Total (\\d+) Mileage \\((\\d+)/(\\d+) times\\)": "当前积分累积：共$1积分（$2/$3次）",
+                "You have accumulated mileages up to (\\d+) times. After accumulating up to (\\d+) times, you need to enter the Cash Shop to settle your Mileages to save and obtain more mileages!": "您已累计积分$1次。累计达到$2次后，需进入现金商城结算积分，才能继续累积并获得更多积分！",
+                "Any Mileage that you don't settle today at the Cash Shop will be destroyed tomorrow. Please enter the Cash Shop by 11:59p.m. today and settle it.": "今日未在现金商城结算的积分，将于明日失效。请于今日23:59前进入现金商城进行结算。"
             }
         }
     ]
