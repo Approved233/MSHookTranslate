@@ -12,16 +12,16 @@
 	},
 	"replaces": [
 		{
-			"font": "Noto Sans SC Medium",
+			"font": "MSHook Noto Sans SC Medium",
 			"condition": {
 				"fonts": [
 					"Nanum Gothic ExtraBold"
 				]
 			},
-			"minHeight": 600
+			"defaultWeight": 700
 		},
 		{
-			"font": "Noto Sans SC Medium",
+			"font": "MSHook Noto Sans SC Medium",
 			"condition": {
 				"fonts": [
 					"Arial",
@@ -40,7 +40,7 @@
 			"quality": 5
 		},
 		{
-			"font": "Noto Sans SC Medium",
+			"font": "MSHook Noto Sans SC Medium",
 			"condition": {
 				"fonts": [
 					"Batang",
