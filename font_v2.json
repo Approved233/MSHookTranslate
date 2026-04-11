@@ -18,7 +18,21 @@
 					"Nanum Gothic ExtraBold"
 				]
 			},
-			"defaultWeight": 700
+			"defaultWeight": 600
+		},
+		{
+			"font": "MSHook Noto Sans SC Medium",
+			"condition": {
+				"fonts": [
+					"Seoul Namsan Font M",
+					"Seoul Namsan Font L",
+					"Seoul Namsan Font EB",
+					"Seoul Namsan Font B"
+				]
+			},
+			"yOffset": -8,
+			"defaultWeight": 500,
+			"quality": 5
 		},
 		{
 			"font": "MSHook Noto Sans SC Medium",
@@ -45,11 +59,7 @@
 				"fonts": [
 					"Batang",
 					"Gungseo",
-					"宮书",
-					"Seoul Namsan Font M",
-					"Seoul Namsan Font L",
-					"Seoul Namsan Font EB",
-					"Seoul Namsan Font B"
+					"宮书"
 				],
 				"minHeight": 14
 			},
@@ -92,11 +102,7 @@
 				"fonts": [
 					"Batang",
 					"Gungseo",
-					"宮书",
-					"Seoul Namsan Font M",
-					"Seoul Namsan Font L",
-					"Seoul Namsan Font EB",
-					"Seoul Namsan Font B"
+					"宮书"
 				],
 				"maxHeight": 13
 			},
